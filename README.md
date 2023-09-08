@@ -57,3 +57,7 @@ Manually translate the C code in the bigintadd.c file into ARMv8 assembly langua
 Your assembly language code must store all parameters and local variables defined in the BigInt_larger and BigInt_add functions in memory, on the stack.
 
 Note that assert is a parameterized macro, not a function. (See Section 14.3 of the King book for a description of parameterized macros.) So assembly language code cannot call assert. When translating bigintadd.c to assembly language, simply pretend that the calls of assert are not in the C code.
+
+This project is a COS217 assignment. https://www.cs.princeton.edu/courses/archive/spr23/cos217/asgts/05assemlang/
+
+A complete code is a private repository and it is available upon request only for employment purpose.
